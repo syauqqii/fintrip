@@ -1,0 +1,47 @@
+# .NET build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# ASP.NET launch profiles
+Properties/launchSettings.json
+
+# dotnet CLI artifacts
+*.dbmdl
+*.pdb
+
+# Environment files
+*.env
+
+# Allow versioned examples or env variants
+!.env.example
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# Configuration transforms
+*.Transform.cs
+
+# macOS metadata
+ehthumbs.db
